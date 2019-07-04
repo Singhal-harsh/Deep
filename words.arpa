@@ -1,0 +1,337 @@
+\data\
+ngram 1=32
+ngram 2=64
+ngram 3=69
+ngram 4=72
+ngram 5=82
+
+\1-grams:
+-1.905901	<unk>	0
+0	<s>	-0.5417641
+-0.79609895	</s>	0
+-1.4569337	uscorp	-0.30103
+-1.2963274	usmuni	-0.30103
+-1.4569337	inrcash	-0.30103
+-1.7288707	cgma	-0.30103
+-1.7288707	cgmi	-0.30103
+-1.7288707	cgml	-0.30103
+-1.3920696	gbpcash	-0.30103
+-1.7288707	jpycash	-0.30103
+-1.4569337	europe	-0.30103
+-1.3920696	us	-0.30103
+-1.7288707	equity	-0.30103
+-1.3920696	trust	-0.30103
+-1.7288707	i	-0.30103
+-1.7288707	want	-0.30103
+-1.2963274	collateral	-0.42596874
+-1.7288707	id	-0.30103
+-1.4569337	as	-0.30103
+-1.7288707	gbcorp	-0.30103
+-1.4569337	and	-0.30103
+-1.7288707	select	-0.30103
+-1.3920696	name	-0.30103
+-1.2963274	but	-0.42596874
+-1.7288707	not	-0.30103
+-1.7288707	choose	-0.30103
+-1.7288707	usequity	-0.30103
+-1.7288707	give	-0.30103
+-1.3920696	me	-0.30103
+-1.7288707	show	-0.30103
+-1.7288707	type	-0.30103
+
+\2-grams:
+-1.0038134	<s> </s>	0
+-0.68833154	uscorp </s>	0
+-0.48153913	usmuni </s>	0
+-0.38374192	inrcash </s>	0
+-0.2366022	cgma </s>	0
+-0.2366022	cgmi </s>	0
+-0.2366022	cgml </s>	0
+-0.6079605	gbpcash </s>	0
+-0.48153913	jpycash </s>	0
+-0.2366022	europe </s>	0
+-0.2366022	trust </s>	0
+-1.6846948	<s> uscorp	-0.13353892
+-0.84630805	as uscorp	-0.13353892
+-0.9965696	and uscorp	-0.13353892
+-1.5993522	<s> usmuni	-0.13353892
+-0.8231214	as usmuni	-0.13353892
+-0.96414816	and usmuni	-0.13353892
+-0.56023765	not usmuni	-0.13353892
+-1.6846948	<s> inrcash	-0.13353892
+-0.9965696	and inrcash	-0.13353892
+-0.5727417	not inrcash	-0.13353892
+-1.7958591	<s> cgma	-0.13353892
+-1.7958591	<s> cgmi	-0.13353892
+-1.7958591	<s> cgml	-0.13353892
+-1.4825096	<s> gbpcash	-0.13353892
+-0.9846172	and gbpcash	-0.13353892
+-1.574481	<s> jpycash	-0.13353892
+-0.7348841	gbpcash europe	-0.13353892
+-0.5727417	jpycash europe	-0.13353892
+-0.5727417	equity europe	-0.13353892
+-1.4825096	<s> us	-0.12210946
+-0.9846172	and us	-0.13353892
+-0.29299676	us equity	-0.12588592
+-0.5681987	equity trust	-0.13353892
+-0.2837694	usequity trust	-0.13353892
+-0.60198474	<s> i	-2.043362
+-0.58613944	i want	-0.13353892
+-0.2796156	want collateral	-0.13353892
+-0.2796156	select collateral	-0.13353892
+-0.2796156	choose collateral	-0.13353892
+-0.2796156	me collateral	-0.12210946
+-0.49552777	collateral id	-1.7745166
+-0.5727417	id as	-0.13353892
+-0.28612348	name as	-0.12210946
+-0.5727417	type as	-0.13353892
+-0.58613944	as gbcorp	-0.12210946
+-0.84630805	uscorp and	-0.13353892
+-0.84630805	usmuni and	-0.13353892
+-0.28612348	gbcorp and	-0.13353892
+-0.9952181	<s> select	-2.0085998
+-0.5681987	id name	-0.13353892
+-0.5681987	type name	-0.13353892
+-0.56023765	uscorp but	-0.12210946
+-0.8231214	usmuni but	-0.13353892
+-0.7168371	inrcash but	-0.13353892
+-0.7168371	gbpcash but	-0.13353892
+-0.19928226	but not	-0.50345016
+-0.58613944	i choose	-0.13353892
+-1.0330701	and usequity	-0.13353892
+-0.9952181	<s> give	-2.0085998
+-0.2837694	give me	-0.13353892
+-0.2837694	show me	-0.13353892
+-0.9952181	<s> show	-2.0085998
+-0.49552777	collateral type	-0.58263147
+
+\3-grams:
+-0.38152146	<s> uscorp </s>	0
+-0.29471517	<s> usmuni </s>	0
+-0.29471517	not usmuni </s>	0
+-0.24519482	<s> inrcash </s>	0
+-0.24519482	not inrcash </s>	0
+-0.16042967	<s> cgma </s>	0
+-0.16042967	<s> cgmi </s>	0
+-0.16042967	<s> cgml </s>	0
+-0.5034912	<s> gbpcash </s>	0
+-0.42600304	<s> jpycash </s>	0
+-0.16042967	gbpcash europe </s>	0
+-0.16042967	jpycash europe </s>	0
+-0.16042967	equity europe </s>	0
+-0.16042967	equity trust </s>	0
+-0.16042967	usequity trust </s>	0
+-0.6380983	name as uscorp	-0.33604705
+-0.47003302	usmuni and uscorp	-0.14368816
+-0.6271068	name as usmuni	-0.33604705
+-0.7744522	uscorp and usmuni	-0.14368816
+-0.7342411	but not usmuni	-0.33604705
+-0.78955364	uscorp and inrcash	-0.14368816
+-0.17253757	but not inrcash	-0.20978425
+-0.7840564	uscorp and gbpcash	-0.14368816
+-0.57228684	<s> gbpcash europe	-0.14368816
+-0.482785	<s> jpycash europe	-0.14368816
+-0.5400152	us equity europe	-0.14368816
+-0.6808242	gbcorp and us	-0.14368816
+-0.20093821	<s> us equity	-0.14368816
+-0.19435193	and us equity	-0.14368816
+-0.43692112	us equity trust	-0.33604705
+-0.18892191	and usequity trust	-0.14368816
+-0.33784634	<s> i want	-0.51081425
+-0.1864621	i want collateral	-0.14368816
+-0.0020260245	<s> select collateral	-0.20978425
+-0.1864621	i choose collateral	-0.14368816
+-0.1864621	give me collateral	-0.14368816
+-0.1864621	show me collateral	-0.14368816
+-0.43500254	want collateral id	-0.14368816
+-0.43500254	select collateral id	-0.14368816
+-0.43500254	choose collateral id	-0.14368816
+-0.43920776	me collateral id	-0.33604705
+-0.3719554	collateral id as	-0.20978425
+-0.19031174	id name as	-0.14368816
+-0.19031174	type name as	-0.14368816
+-0.8192336	collateral type as	-0.33604705
+-0.3416135	id as gbcorp	-0.14368816
+-0.3416135	type as gbcorp	-0.14368816
+-0.6250635	as uscorp and	-0.14368816
+-0.43243766	as usmuni and	-0.14368816
+-0.19672772	as gbcorp and	-0.26205367
+-0.24598242	collateral id name	-0.334723
+-0.13815379	collateral type name	-0.334723
+-0.47526777	as uscorp but	-0.14368816
+-0.33057904	and uscorp but	-0.14368816
+-0.425737	and usmuni but	-0.14368816
+-0.39164793	and inrcash but	-0.14368816
+-0.39164793	and gbpcash but	-0.14368816
+-0.14134443	uscorp but not	-0.14368816
+-0.1370268	usmuni but not	-0.14368816
+-0.1370268	inrcash but not	-0.14368816
+-0.1370268	gbpcash but not	-0.14368816
+-0.27060553	<s> i choose	-0.57776105
+-0.6979047	gbcorp and usequity	-0.14368816
+-0.0020474026	<s> give me	-0.51081425
+-0.0020474026	<s> show me	-0.51081425
+-0.43500254	want collateral type	-0.14368816
+-0.43500254	select collateral type	-0.14368816
+-0.43500254	choose collateral type	-0.14368816
+-0.43920776	me collateral type	-0.33604705
+
+\4-grams:
+-0.11196423	but not usmuni </s>	0
+-0.1343824	but not inrcash </s>	0
+-0.10893797	<s> gbpcash europe </s>	0
+-0.10893797	<s> jpycash europe </s>	0
+-0.10893797	us equity europe </s>	0
+-0.0667476	us equity trust </s>	0
+-0.10893797	and usequity trust </s>	0
+-0.5141048	id name as uscorp	-0.4279787
+-0.5141048	type name as uscorp	-0.29636762
+-0.27978548	as usmuni and uscorp	-0.25497496
+-0.50813586	id name as usmuni	-0.03312618
+-0.50813586	type name as usmuni	-0.5378011
+-0.6682913	as uscorp and usmuni	-0.25497496
+-0.56335914	uscorp but not usmuni	-0.25497496
+-0.3828467	inrcash but not usmuni	-0.25497496
+-0.67672163	as uscorp and inrcash	-0.25497496
+-0.20505707	uscorp but not inrcash	-0.25497496
+-0.11662368	usmuni but not inrcash	-0.25497496
+-0.11662368	gbpcash but not inrcash	-0.25497496
+-0.6736678	as uscorp and gbpcash	-0.25497496
+-0.45841995	<s> us equity europe	-0.4573772
+-0.3249443	as gbcorp and us	-0.25497496
+-0.13027218	gbcorp and us equity	-0.25497496
+-0.39415312	<s> us equity trust	-0.4573772
+-0.26412323	and us equity trust	-0.25497496
+-0.12689883	gbcorp and usequity trust	-0.4573772
+-0.049474135	<s> i want collateral	-0.03312618
+-0.042051878	<s> i choose collateral	-0.10007299
+-0.049474135	<s> give me collateral	-0.03312618
+-0.049474135	<s> show me collateral	-0.03312618
+-0.39290324	i want collateral id	-0.50930595
+-0.37869394	<s> select collateral id	-0.03312618
+-0.39290324	i choose collateral id	-0.10672122
+-0.39564022	give me collateral id	-0.50930595
+-0.39564022	show me collateral id	-0.50930595
+-0.3507773	want collateral id as	-0.4573772
+-0.3507773	choose collateral id as	-0.4573772
+-0.332314	me collateral id as	-0.5378011
+-0.07787772	collateral id name as	-0.3341562
+-0.07787772	collateral type name as	-0.5876796
+-0.6024811	select collateral type as	-0.4573772
+-0.6024811	choose collateral type as	-0.4573772
+-0.17781147	collateral id as gbcorp	-0.15806493
+-0.12563968	collateral type as gbcorp	-0.5378011
+-0.42166573	name as uscorp and	-0.254975
+-0.14926171	name as usmuni and	-0.25497496
+-0.13174315	id as gbcorp and	-0.10672122
+-0.13174315	type as gbcorp and	-0.5378011
+-0.2607961	want collateral id name	-0.5378011
+-0.16154164	select collateral id name	-0.03312618
+-0.2607961	choose collateral id name	-0.03312618
+-0.27476913	me collateral id name	-0.15806493
+-0.09459464	want collateral type name	-0.03312618
+-0.17820399	select collateral type name	-0.5378011
+-0.17820399	choose collateral type name	-0.5378011
+-0.05833218	me collateral type name	-0.3341562
+-0.3728599	name as uscorp but	-0.25497496
+-0.20955914	usmuni and uscorp but	-0.25497496
+-0.25869074	uscorp and usmuni but	-0.25497496
+-0.24168842	uscorp and inrcash but	-0.25497496
+-0.24168842	uscorp and gbpcash but	-0.25497496
+-0.09666513	as uscorp but not	-0.25497496
+-0.09666513	and uscorp but not	-0.25497496
+-0.09386204	and usmuni but not	-0.25497496
+-0.09386204	and inrcash but not	-0.25497496
+-0.09386204	and gbpcash but not	-0.25497496
+-0.69131815	as gbcorp and usequity	-0.4573772
+-0.39290324	i want collateral type	-0.03312618
+-0.37869394	<s> select collateral type	-0.50930595
+-0.39290324	i choose collateral type	-0.50930595
+-0.39564022	give me collateral type	-0.03312618
+-0.39564022	show me collateral type	-0.03312618
+
+\5-grams:
+-0.05865742	uscorp but not usmuni </s>
+-0.05865742	inrcash but not usmuni </s>
+-0.06953634	uscorp but not inrcash </s>
+-0.06953634	usmuni but not inrcash </s>
+-0.06953634	gbpcash but not inrcash </s>
+-0.034981992	<s> us equity europe </s>
+-0.022137757	<s> us equity trust </s>
+-0.0358351	and us equity trust </s>
+-0.034981992	gbcorp and usequity trust </s>
+-0.18033743	collateral id name as uscorp
+-0.14786218	collateral type name as uscorp
+-0.13314146	name as usmuni and uscorp
+-0.7901018	collateral id name as usmuni
+-0.7224983	collateral type name as usmuni
+-0.572925	name as uscorp and usmuni
+-0.22475265	as uscorp but not usmuni
+-0.1711453	and inrcash but not usmuni
+-0.5766675	name as uscorp and inrcash
+-0.10194711	and uscorp but not inrcash
+-0.060942326	and usmuni but not inrcash
+-0.060942326	and gbpcash but not inrcash
+-0.5753164	name as uscorp and gbpcash
+-0.37141418	id as gbcorp and us
+-0.071962036	type as gbcorp and us
+-0.0675634	as gbcorp and us equity
+-0.12686166	gbcorp and us equity trust
+-0.040189695	as gbcorp and usequity trust
+-0.3854536	<s> i want collateral id
+-0.3047681	<s> i choose collateral id
+-0.38794577	<s> give me collateral id
+-0.38794577	<s> show me collateral id
+-0.4496906	i want collateral id as
+-0.29112852	i choose collateral id as
+-0.44242054	give me collateral id as
+-0.44242054	show me collateral id as
+-0.021173805	want collateral id name as
+-0.071658306	select collateral id name as
+-0.071658306	choose collateral id name as
+-0.05260515	me collateral id name as
+-0.071658306	want collateral type name as
+-0.021173805	select collateral type name as
+-0.021173805	choose collateral type name as
+-0.03435287	me collateral type name as
+-0.5311209	<s> select collateral type as
+-0.5311209	i choose collateral type as
+-0.054136895	want collateral id as gbcorp
+-0.054136895	choose collateral id as gbcorp
+-0.044498082	me collateral id as gbcorp
+-0.03982959	select collateral type as gbcorp
+-0.03982959	choose collateral type as gbcorp
+-0.21446112	id name as uscorp and
+-0.17653537	type name as uscorp and
+-0.13637373	id name as usmuni and
+-0.03825048	type name as usmuni and
+-0.08715768	collateral id as gbcorp and
+-0.03425583	collateral type as gbcorp and
+-0.19164968	i want collateral id name
+-0.14740336	<s> select collateral id name
+-0.31506073	i choose collateral id name
+-0.1952946	give me collateral id name
+-0.1952946	show me collateral id name
+-0.086901575	i want collateral type name
+-0.16827755	<s> select collateral type name
+-0.16827755	i choose collateral type name
+-0.05377131	give me collateral type name
+-0.05377131	show me collateral type name
+-0.50032544	id name as uscorp but
+-0.63040245	type name as uscorp but
+-0.10391526	as usmuni and uscorp but
+-0.124651745	as uscorp and usmuni but
+-0.11762898	as uscorp and inrcash but
+-0.11762898	as uscorp and gbpcash but
+-0.051067173	name as uscorp but not
+-0.051067173	usmuni and uscorp but not
+-0.049661893	uscorp and usmuni but not
+-0.049661893	uscorp and inrcash but not
+-0.049661893	uscorp and gbpcash but not
+-0.49214795	id as gbcorp and usequity
+-0.3854536	<s> i want collateral type
+-0.4524004	<s> i choose collateral type
+-0.38794577	<s> give me collateral type
+-0.38794577	<s> show me collateral type
+
+\end\

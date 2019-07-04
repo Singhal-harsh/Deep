@@ -1,0 +1,47 @@
+uscorp
+usmuni
+inrcash
+cgma
+cgmi
+cgml
+gbpcash
+jpycash
+gbpcash europe
+jpycash europe
+us equity europe
+us equity trust
+i want collateral id as gbcorp and us equity trust
+select collateral id name as uscorp but not usmuni
+i choose collateral id as gbcorp and usequity trust
+give me collateral id as gbcorp and us equity trust
+show me collateral id as gbcorp and us equity trust
+i want collateral type name as uscorp but not usmuni
+select collateral type as gbcorp and us equity trust
+i choose collateral id name as uscorp but not usmuni
+i choose collateral type as gbcorp and us equity trust
+give me collateral type name as uscorp but not usmuni
+show me collateral type name as uscorp but not usmuni
+i want collateral id name as uscorp and usmuni but not inrcash
+select collateral type name as uscorp and usmuni but not inrcash
+i choose collateral id name as uscorp and gbpcash but not inrcash
+give me collateral id name as uscorp and usmuni but not inrcash
+show me collateral id name as uscorp and usmuni but not inrcash
+i want collateral type name as uscorp and inrcash but not usmuni
+select collateral id name as uscorp and inrcash but not usmuni
+i choose collateral id name as uscorp and inrcash but not usmuni
+give me collateral type name as uscorp and inrcash but not usmuni
+show me collateral type name as uscorp and inrcash but not usmuni
+i want collateral id name as usmuni and uscorp but not inrcash
+select collateral type name as usmuni and uscorp but not inrcash
+i choose collateral type name as uscorp and usmuni but not inrcash
+give me collateral id name as usmuni and uscorp but not inrcash
+show me collateral id name as usmuni and uscorp but not inrcash
+i want collateral type name as uscorp and gbpcash but not inrcash
+select collateral id name as uscorp and gbpcash but not inrcash
+i choose collateral type name as usmuni and uscorp but not inrcash
+give me collateral type name as uscorp and gbpcash but not inrcash
+show me collateral type name as uscorp and gbpcash but not inrcash
+
+
+
+
